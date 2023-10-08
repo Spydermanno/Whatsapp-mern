@@ -1,0 +1,45 @@
+
+.sidebar{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    border-right: 1px solid lightcoral;
+    margin-top:0px;
+    margin-left: 10px;
+    flex-direction:column;
+}
+.sidebar__header{
+    display: flex;
+    flex-direction:row;
+    margin-left: 0px;
+}
+.sidebar__headerRight{
+   padding-left: 50px;
+   margin-top: -15px;
+   display:flex;
+   align-items:right;
+   justify-content: space-between;
+}
+.SidebarSearch{
+    display:flex;
+    align-items:center;
+    background: color #f6f6f6;
+    height:39px;
+    width:10px;
+}
+.sidebar__chats{
+    font-size: small;
+    overflow-y:scroll;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+.sidebarChat:hover{
+    flex:1;
+    background-color:white;
+   
+
+}
+.sidebar__chats::-webkit-scrollbar {
+    display: none !important;
+}
